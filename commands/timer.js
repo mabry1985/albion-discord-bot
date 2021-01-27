@@ -6,7 +6,7 @@ module.exports = {
   name: '!dgt',
   description: 'Solo dungeon timer.',
   execute(msg, args) {
-    msg.reply('Timer Set')
+    msg.reply('Timer set')
     setTimeout(function() {
       dgTimer(msg);
     }, 90000)
